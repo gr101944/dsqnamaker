@@ -1,0 +1,16 @@
+{
+  "name": "qnamaker-quickstart-update-knowledge-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "update-knowledge-base.js",
+  "scripts": {
+    "start": "node update-knowledge-base.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.8.0",
+    "@azure/storage-file-share": "^12.8.0"
+  }
+}
